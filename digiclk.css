@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100vh;
+}
+#container{
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#time,#Date,#day{
+    color: white;
+    font-size: 8vw;
+    text-shadow: 5px 5px 5px black;
+}
+#Date,#day{
+font-size: 4vw;
+}
+#sec{
+    position: absolute;
+    font-size: 40vw;
+    z-index: -1;
+    color: lawngreen;
+}
